@@ -14541,7 +14541,7 @@ textarea.form-control {
   background-color: rgba(0, 0, 0, 0.6); /* Adjust color and opacity here */
   z-index: -1; /* Make sure overlay is above the image but below text */
 }
-.navbar {
-  padding: 5px 10px; /* Adjust padding to reduce size */
-  height: 100px; /* Adjust height as needed */
-}
+/* .navbar {
+  padding: 5px 10px;
+  height: 100px;
+} */
