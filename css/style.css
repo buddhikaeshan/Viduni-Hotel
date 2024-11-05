@@ -13130,18 +13130,23 @@ h5,
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(47, 137, 252, 0.8);
+  background: #2892e3c0;
   opacity: 0;
   -moz-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   -webkit-transition: all 0.3s ease;
   -ms-transition: all 0.3s ease;
   transition: all 0.3s ease;
+  padding: 10px;
+  font-weight: 900;
+  font-size: 1rem;
+  color: #fff;
 }
 
 .instagram .insta-img .icon span {
-  color: #fff;
-  font-size: 40px;
+  color: #ffc107;
+  text-shadow: 1px 1px 10px #c0c0c0;
+  font-size: 20px;
 }
 
 .instagram .insta-img:hover .icon {
@@ -14529,19 +14534,46 @@ textarea.form-control {
   }
 }
 
+
+
+
 .overlay-home {
-  background-color: rgba(0, 0, 255, 0.5); /* Blue with 50% opacity */
+  background-color: rgba(0, 0, 255, 0.5);
 }
+
 .overlay-home {
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0, 0, 0, 0.6); /* Adjust color and opacity here */
-  z-index: -1; /* Make sure overlay is above the image but below text */
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: -1;
 }
-/* .navbar {
+
+.navbar {
   padding: 5px 10px;
   height: 100px;
-} */
+  max-width: 1920px;
+}
+
+@media (max-width:1000px) {
+  .navbar {
+    padding: 0px 20px;
+    height: auto;
+  }
+
+  .navbar-brand img {
+    width: 80px;
+  }
+}
+
+.heading-section .travelEnd {
+  font-size: 15px;
+  display: block;
+  margin-bottom: 5px;
+  color: #21cc7a;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 700;
+}
