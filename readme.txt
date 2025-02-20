@@ -1,8 +1,14 @@
-Thank you for using our template!
+🏨 Hotel Website
+A beautifully designed hotel website with a responsive layout, an interactive Google Map, a stunning gallery, and essential contact details.
 
-For more awesome templates please visit https://colorlib.com/wp/templates/
+🎨 Features
+✅ Responsive Design – Works on all devices (desktop, tablet, mobile).
+✅ Google Maps Integration – Displays hotel location.
+✅ Gallery Section – Showcases hotel images.
+✅ Contact Details – Includes phone, email, and address.
 
-Copyright information for the template can't be altered/removed unless you purchase a license.
-More information about the license is available here: https://colorlib.com/wp/licence/
-
-Removing copyright information without the license will result in suspension of your hosting and/or domain name(s).
+🛠 Technologies Used
+🔹 HTML5 – Page structure
+🔹 CSS3 – Styling and animations
+🔹 JavaScript – Interactive features
+🔹 Google Maps API – Hotel location
